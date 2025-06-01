@@ -3,10 +3,10 @@ import "./App.css";
 import { SidebarProvider } from "./components/ui/sidebar";
 import SideMenubar from "./partials/SideMenubar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import Stories from "./pages/Stories/Stories";
-import Categories from "./pages/Categories/Categories";
-import Settings from "./pages/Settings/Settings";
+import Dashboard from "./pages/Dashboard";
+import Stories from "./pages/Stories";
+import Categories from "./pages/Categories";
+import Settings from "./pages/Settings";
 import NotFound from "./NotFound";
 
 function App() {

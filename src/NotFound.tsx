@@ -1,5 +1,5 @@
 import React from "react";
-import { notFound } from "./dataset/notfound/notFound";
+import { notFound } from "./dataset/notFound";
 
 const NotFound = () => {
   return (

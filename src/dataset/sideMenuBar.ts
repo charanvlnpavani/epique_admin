@@ -1,4 +1,4 @@
-import { Cog, Folders, LayoutDashboard, SquareStack } from "lucide-react";
+import { BookOpen, Cog, LayoutDashboard, SquareStack } from "lucide-react";
 
 import type { LucideIcon } from "lucide-react";
 
@@ -21,7 +21,7 @@ export const sideMenuBar: SideMenuBar[] = [
   {
     id: 2,
     title: "Stories",
-    icon: Folders,
+    icon: BookOpen,
     url: "/stories",
     routeName: "stories",
   },

@@ -156,3 +156,10 @@
   text-decoration: underline;
   text-decoration-color: rgba(0, 0, 0, 0.767);
 }
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: #f3f4f6; /* Match your header bg */
+  z-index: 2;
+}
