@@ -4,10 +4,10 @@ import {
   SidebarFooter,
   SidebarHeader,
 } from "@/components/ui/sidebar";
-import { sideMenuBar } from "@/dataset/sidemenubar/sideMenuBar";
+import { sideMenuBar } from "@/dataset/sideMenuBar";
 import { NavLink } from "react-router-dom"; // Add this import
 import { LogOut } from "lucide-react";
-import ButtonClick from "@/components/button/ButtonClick";
+import ButtonClick from "@/components/ButtonClick";
 
 const SideMenubar = () => {
   return (

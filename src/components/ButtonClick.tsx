@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "./ui/button";
 
 interface ButtonClickProps {
-  label: string;
+  label?: string;
   onClick?: () => void;
   variant?:
     | "outline"
